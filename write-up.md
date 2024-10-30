@@ -117,5 +117,5 @@ An analysis was conducted by applying the ADE-SVM model and various traditional 
 ## 5. Conclusion
 
 ## 6. References
-
+Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
 
