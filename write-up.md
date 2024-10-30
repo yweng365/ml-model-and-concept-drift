@@ -1,15 +1,18 @@
 # Model and Concept Drift
-# 1.
+# 1. Introduction
 
-# 2.
+# 2. Challenges & Detection of Drift
 
 # 3. Techniques to Adapt to Drift
 
-To effectively adapt to model and concept drift, several strategies can be used depending on the nature of the drift and computational constraints. These techniques are grouped into general adaptation strategies, deep learning-specific methods, ensemble methods, and evaluation approaches to ensure model resilience.
+After the detection of drift, we look into the techniques to effectively adapt to model and concept drift. Depending on the nature of the drift, several strategies can be used. We will then introduce some strategies, grouping into four categories ———— general adaptation strategies, deep learning-specific methods,ensemble methods, and evaluation approaches to ensure model resilience.
 
 ## 3.1 General Adaptation Strategies
 
-- **Detect and Increment**: This approach uses a drift detector to monitor model performance continuously and incrementally updates model parameters with new data. It is suitable for gradual drift without significant changes to the model configuration.
+Since machine learning algorithms usually optimize an objective function against a static training set, the idea is to perform modifications to apply them on evolving data. In this paper, wee propose six different modifying strategies. In each of the strategies, the suitable situation is listed.
+
+- **Detect and Increment**: This approach uses a drift detector to monitor model performance continuously and incrementally updates model parameters with new data. The model is updated only if drift is detected, with the
+pipelines trained incrementally with the latest s (sliding window) batchesIt is suitable for gradual drift without significant changes to the model configuration.
 
 - **Detect and Retrain**: When drift is detected, the model is retrained from scratch using the most recent data while keeping the original structure intact. This ensures that the model is up-to-date with recent data patterns and works effectively for moderate changes.
 
