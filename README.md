@@ -1,4 +1,4 @@
-This is a report focus on the topic Model and Concept Drift.
+This is a report on Model and Concept Drift.
 Key Question to solve: Identifying when a model’s performance degrades due to changing data distributions over time, and techniques to adapt.
 
 Overview:
