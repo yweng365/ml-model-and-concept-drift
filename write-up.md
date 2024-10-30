@@ -107,7 +107,7 @@ Traditional FRP models utilize windows and batch selection to address concept dr
 
 ### 4.3 Adaptive and Dynamic Ensemble of Support Vector Machines (ADE-SVM) Approach
 ADE-SVM is a novel approach in resolving issues relating to concept drift in dynamic financial environment. Specifically, features of ADE-SVM Approach such as incremental construction of candidate SVMs, adaptive selection of base SVM and dynamic combination mechanism allow the predictive model adapt to new data batches that emerge over time, ensuring the prediction model remains relevant and accurate. Specific explanation of each feature is listed below:
-- Incremental construction of candidate SVMs: Each new batch of data forms a candidate model, and the system runs the SVM algorism on different combinations of data to form canditate SVMs, allowing the model to learn from both historical and recent patterns.
+- Incremental construction of candidate SVMs: Each new batch of data forms a candidate model, and the system runs the SVM algorism on different combinations of data to form candidate SVMs, allowing the model to learn from both historical and recent patterns.
 - Adaptive selection of base SVMs: System selects base SVM according to the performance of candidate models on the recent validation dataset, ensuring the pertinence and diversity of the model for future predictions.
 - Dynamic combination mechanism: Selected base SVMs are weighted dynamically, and the outputs are combined through a weighted voting system. This mechanism ensures that the model that is most consistent with the current financial situation has a greater impact on the forecast.
 
