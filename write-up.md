@@ -25,7 +25,7 @@
 
 ## 1. Introduction
 
-## 2. Concept Drift Detection and Challenges
+## 2. Drift Detection and Challenges
 
 ### 2.1 Consequences of Concept Drift
 Concept drift has several side effects on the model performances. To strat with, one of the main consequences of concept drift is model degradation. Specifically, models trained on past data become less accurate over time because the data points are insufficient to capture the complexity of the problem, plus the system environment is dynamic and progressively subject to changes, making it difficult for a single model to provide accurate predictions.
@@ -41,7 +41,7 @@ Finally, Hybrid and Complex Data Techniques, such as PCA-Based Detection and Gra
 Identifying concept drift poses several challenges, including differentiating concept drift from random noise, especially in high-frequency data streams such as financial transactions. Drift appears in multiple forms - abrupt, gradual, incremental, and recurring — yet most detection methods often specialize to identify only one type, imposing greater challenges on addressing multiple drift types at the same time. Additionally, high-dimensional and complex data structures make drift detection more complicated, as detecting shifts in such structures demands substantial memory and computational resources.
 
 
-## 3. Techniques to Adapt to Drift
+## 3. Drift Adaptation Techniques
 
 After the detection of drift, we look into the techniques to effectively adapt to model and concept drift. Depending on the nature of the drift, several strategies can be used. We will then introduce some strategies, grouping into four categories ———— general adaptation strategies, deep learning-specific methods,ensemble methods, and evaluation approaches to ensure model resilience.
 
