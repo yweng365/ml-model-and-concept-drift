@@ -15,9 +15,9 @@
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Drift Detection and Challenges](#DetectionofDrift&Chllenges)
-- [Drift Adaptation Techniques](#DriftAdaptationTechniques)
-- [Real World Example: Financial Risk Prediction (FRP) Model](#FRPmodel)
+- [Drift Detection and Challenges](#Drift_Detection_and_Challenges)
+- [Drift Adaptation Techniques](#Drift_Adaptation_Techniques)
+- [Real World Example: Financial Risk Prediction (FRP) Model](#Real_World_Example_Financial_Risk_Prediction_(FRP)_Model)
 - [Conclusion](#Conclusion)
 - [References](#References)
 
@@ -115,6 +115,7 @@ ADE-SVM is a novel approach in resolving issues relating to concept drift in dyn
 An analysis was conducted by applying the ADE-SVM model and various traditional Financial Risk Prediction (FRP) models to financial data from several Chinese companies over the period 2000 to 2008. When comparing the model outputs with empirical data, the ADE-SVM model demonstrated significantly lower error rates, greater stability, and improved dynamic adaptability compared to traditional models.
 
 ## 5. Conclusion
+Overall, in this project, we introduced the causes and impacts of model drift and concept drift in models. Then we discussed several approaches to detect concept drift including Statistical Process Control (SPC) Methods, Window-Based Distribution Methods, Adaptive and Ensemble-Based Learning Methods, Uncertainty-Based Detection and Hybrid & Complex Data Techniques. Probing into methods aiming to address concept drift issues in models, we introduced 4 specific categories of drift adaptation techniques, namely general adaptation strategies, deep learning-specific methods, ensemble methods, and evaluation approaches. In addition, a real-world case of FRP model and ADE-SVM approach is presented to show the applications of drift detection and adaptation techniques in financial markets.
 
 ## 6. References
 Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
