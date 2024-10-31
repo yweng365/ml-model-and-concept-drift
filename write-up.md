@@ -138,7 +138,8 @@ Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?.
 
 Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
 
+Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
+
 What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
 
-Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
 
