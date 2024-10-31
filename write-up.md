@@ -134,12 +134,18 @@ Overall, in this project, we introduced the causes and impacts of model drift an
 
 1. Bayram, F., Ahmed, B. S., & Kassler, A. (2022). From concept drift to model degradation: An overview on performance-aware Drift Detectors. Knowledge-Based Systems, 245, 108632. https://doi.org/10.1016/j.knosys.2022.108632 
 
-2. Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?. IBM. https://www.ibm.com/topics/model-drift 
+2. Celik, B., & Vanschoren, J. (2021). Adaptation strategies for automated machine learning on evolving data. IEEE transactions on pattern analysis and machine intelligence, 43(9), 3067-3078.
 
-3. Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
+3. Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?. IBM. https://www.ibm.com/topics/model-drift 
 
-4. Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
+4. Nelson, K., Corbin, G., Anania, M., Kovacs, M., Tobias, J., & Blowers, M. (2015, May). Evaluating model drift in machine learning algorithms. In 2015 IEEE Symposium on Computational Intelligence for Security and Defense Applications (CISDA) (pp. 1-8). IEEE.
 
-5. What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
+5. Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
 
+6. Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
 
+7. Vandenbulcke, L., Beckers, J. M., Lenartz, F., Barth, A., Poulain, P. M., Aidonidis, M., ... & Rixen, M. (2009). Super-ensemble techniques: Application to surface drift prediction. Progress in Oceanography, 82(3), 149-167.
+
+8. What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
+
+9. Yuan, L., Li, H., Xia, B., Gao, C., Liu, M., Yuan, W., & You, X. (2022, July). Recent Advances in Concept Drift Adaptation Methods for Deep Learning. In IJCAI (pp. 5654-5661).
