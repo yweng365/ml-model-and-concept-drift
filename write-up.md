@@ -31,7 +31,7 @@ Model drift is defined as the observed degradation of machine learning model pe
 
 The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs. In this project, we will mainly focus on the concept drift.
 
-## 1.2 Types of Concept Drift
+### 1.2 Types of Concept Drift
 
 There are various types of concept drift patterns, including gradual concept drift, sudden concept drift and recurring concept drift. 
 - **Gradual Concept Drift**: Gradual Concept Drift is the most common concept drift. Like its name, the term "drift" refers to a gradual change or movement. Gradual concept drift occurs as the underlying data patterns change over time. In production, we generally see a smooth decay in the core model quality metric over time. The actual speed of decay varies and is greatly influenced by the modeled process and the rate of change in the environment.
