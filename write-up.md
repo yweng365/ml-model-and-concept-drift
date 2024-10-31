@@ -25,11 +25,11 @@
 
 ## 1. Introduction
 
-Model drift is defined as the observed degradation of machine learning model performance due to changes in data or the relationships between input and output variables. Models based on historical data can soon become stagnant as the world is constantly changing, including new variations, patterns, and trends. These new data points cannot be captured by the existing data. If the machine learning model's training is not aligned with the latest data, it may not accurately interpret the data and forecast effectively. So, model drift can have a negative impact on model performance, leading to poor decision-making and predictions.
+Model drift is defined as the observed degradation of machine learning model performance due to changes in data or the relationships between input and output variables [2]. Models based on historical data can soon become stagnant as the world is constantly changing, including new variations, patterns, and trends. These new data points cannot be captured by the existing data. If the machine learning model's training is not aligned with the latest data, it may not accurately interpret the data and forecast effectively. So, model drift can have a negative impact on model performance, leading to poor decision-making and predictions.
 
 ### 1.1 Types of Model Drift
 
-The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs. In this project, we will mainly focus on the concept drift.
+The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs [5]. In this project, we will mainly focus on the concept drift.
 
 ### 1.2 Types of Concept Drift
 
@@ -132,14 +132,14 @@ Overall, in this project, we introduced the causes and impacts of model drift an
 
 ## 6. References
 
-Bayram, F., Ahmed, B. S., & Kassler, A. (2022). From concept drift to model degradation: An overview on performance-aware Drift Detectors. Knowledge-Based Systems, 245, 108632. https://doi.org/10.1016/j.knosys.2022.108632 
+1. Bayram, F., Ahmed, B. S., & Kassler, A. (2022). From concept drift to model degradation: An overview on performance-aware Drift Detectors. Knowledge-Based Systems, 245, 108632. https://doi.org/10.1016/j.knosys.2022.108632 
 
-Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?. IBM. https://www.ibm.com/topics/model-drift 
+2. Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?. IBM. https://www.ibm.com/topics/model-drift 
 
-Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
+3. Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
 
-Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
+4. Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
 
-What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
+5. What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
 
 
