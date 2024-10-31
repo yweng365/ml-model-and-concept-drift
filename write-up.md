@@ -14,12 +14,12 @@
 ---
 
 ## Table of Contents
-- [Introduction](##Introduction)
-- [Drift Detection and Challenges](##Drift_Detection_and_Challenges)
-- [Drift Adaptation Techniques](##Drift_Adaptation_Techniques)
-- [Real World Example: Financial Risk Prediction (FRP) Model](##Real_World_Example_Financial_Risk_Prediction_(FRP)_Model)
-- [Conclusion](##Conclusion)
-- [References](##References)
+- [Introduction](#1-introduction)
+- [Drift Detection and Challenges](#2-Drift_Detection_and_Challenges)
+- [Drift Adaptation Techniques](#3-Drift_Adaptation_Techniques)
+- [Real World Example: Financial Risk Prediction (FRP) Model](#4-Real_World_Example_Financial_Risk_Prediction_(FRP)_Model)
+- [Conclusion](#5-Conclusion)
+- [References](#6-References)
 
 ---
 
