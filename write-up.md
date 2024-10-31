@@ -29,7 +29,7 @@ Model drift is defined as the observed degradation of machine learning model pe
 
 ### 1.1 Types of Model Drift
 
-The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs [5]. An example of the difference between data drift and concept drift can be the detection of spam emails. The data drift is an increase in mobile-sent emails, such as the change in “device type” or “email length”, this drift is caused by the shift in prevalence of mobile-based emails. However, the new phishing technique is a type of concept drift that caused a sudden increase in mobile-based spam emails. In this project, we will mainly focus on the concept drift. 
+The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs [5]. In this project, we will mainly focus on the concept drift. 
 
 ### 1.2 Types of Concept Drift
 
