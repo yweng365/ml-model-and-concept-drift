@@ -25,6 +25,19 @@
 
 ## 1. Introduction
 
+Model drift is defined as the observed degradation of machine learning model performance due to changes in data or the relationships between input and output variables. Models based on historical data can soon become stagnant as the world is constantly changing, including new variations, patterns, and trends. These new data points cannot be captured by the existing data. If the machine learning model's training is not aligned with the latest data, it may not accurately interpret the data and forecast effectively. So, model drift can have a negative impact on model performance, leading to poor decision-making and predictions.
+
+### 1.1 Types of Model Drift
+
+The two main categories of model drift are concept drift and data drift. The data drift refers to changes in input features' distributions, whereas the concept drift refers to changes in the relationship between model inputs and outputs. In this project, we will mainly focus on the concept drift.
+
+## 1.2 Types of Concept Drift
+
+There are various types of concept drift patterns, including gradual concept drift, sudden concept drift and recurring concept drift. 
+- **Gradual Concept Drift**: Gradual Concept Drift is the most common concept drift. Like its name, the term "drift" refers to a gradual change or movement. Gradual concept drift occurs as the underlying data patterns change over time. In production, we generally see a smooth decay in the core model quality metric over time. The actual speed of decay varies and is greatly influenced by the modeled process and the rate of change in the environment.
+- **Sudden Concept Drift**：Sudden concept drift is the opposite of gradual concept drift; it is an abrupt and unexpected change in the model environment. COVID-19 is a good example of a sudden change that impacted machine learning models across industries. For instance, as the national lockdown was announced, the actual sales of loungewear suddenly increased.
+- **Recurring Concept Drift**: The "recurring" concept drift refers to repeated or cyclical pattern changes, such as increases in sales during holidays, discounts, or Black Friday.
+
 ## 2. Drift Detection and Challenges
 
 ### 2.1 Consequences of Concept Drift
@@ -118,5 +131,14 @@ An analysis was conducted by applying the ADE-SVM model and various traditional 
 Overall, in this project, we introduced the causes and impacts of model drift and concept drift in models. Then we discussed several approaches to detect concept drift including Statistical Process Control (SPC) Methods, Window-Based Distribution Methods, Adaptive and Ensemble-Based Learning Methods, Uncertainty-Based Detection and Hybrid & Complex Data Techniques. Probing into methods aiming to address concept drift issues in models, we introduced 4 specific categories of drift adaptation techniques, namely general adaptation strategies, deep learning-specific methods, ensemble methods, and evaluation approaches. In addition, a real-world case of FRP model and ADE-SVM approach is presented to show the applications of drift detection and adaptation techniques in financial markets.
 
 ## 6. References
+
+Bayram, F., Ahmed, B. S., & Kassler, A. (2022). From concept drift to model degradation: An overview on performance-aware Drift Detectors. Knowledge-Based Systems, 245, 108632. https://doi.org/10.1016/j.knosys.2022.108632 
+
+Holdsworth, J., Stryker, C., & Belcic, I. (2024, July 16). What is model drift?. IBM. https://www.ibm.com/topics/model-drift 
+
+Machine Learning Monitoring, part 5: Why you should care about data and concept drift. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-a). https://www.evidentlyai.com/blog/machine-learning-monitoring-data-and-concept-drift#concept-drift 
+
+What is concept drift in ML, and how to detect and address it. Evidently AI - Open-Source ML Monitoring and Observability. (n.d.-b). https://www.evidentlyai.com/ml-in-production/concept-drift#types-of-concept-drift 
+
 Sun, J., Li, H., & Adeli, H. (2013). Concept drift-oriented adaptive and dynamic support vector machine ensemble with time window in corporate financial risk prediction. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 43(4), 801-813.
 
